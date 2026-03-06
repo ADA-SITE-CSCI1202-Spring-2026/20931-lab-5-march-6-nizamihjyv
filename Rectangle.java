@@ -6,6 +6,7 @@ class Rectangle {
         height = h;
     }
 
+    @Override
     public boolean equals(Object obj) {
 
         if (!(obj instanceof Rectangle)) {
